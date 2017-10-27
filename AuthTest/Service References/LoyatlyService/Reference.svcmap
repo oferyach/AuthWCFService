@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9241d5b5-a148-49c5-bf05-67c87fb70a1b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49954/LoyaltyService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LoyaltyService.disco" MetadataType="Disco" ID="068cd556-8df3-40d2-b67e-52c665e73a19" SourceId="1" SourceUrl="http://localhost:49954/LoyaltyService.svc?disco" />
+    <MetadataFile FileName="LoyaltyService.xsd" MetadataType="Schema" ID="dcf39e2a-50b7-4c2c-916f-6eb1d78fd3c2" SourceId="1" SourceUrl="http://localhost:49954/LoyaltyService.svc?xsd=xsd2" />
+    <MetadataFile FileName="LoyaltyService1.xsd" MetadataType="Schema" ID="de5d2957-c841-47a4-bc34-54f839a70169" SourceId="1" SourceUrl="http://localhost:49954/LoyaltyService.svc?xsd=xsd0" />
+    <MetadataFile FileName="LoyaltyService2.xsd" MetadataType="Schema" ID="2d5153d7-e666-45d0-876f-7b2e624384ee" SourceId="1" SourceUrl="http://localhost:49954/LoyaltyService.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="209b60b1-1aef-477a-a575-d195a4bffbfe" SourceId="1" SourceUrl="http://localhost:49954/LoyaltyService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
